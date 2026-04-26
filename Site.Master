@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="WebApplication3.SiteMaster" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>BookShelf</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #f4f6f9;
+        }
+
+        .navbar {
+            background: linear-gradient(135deg, #1b4332, #40916c);
+            color: white;
+            padding: 12px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+        }
+
+        .right > * {
+            margin-left: 10px;
+        }
+
+        .user {
+            background: rgba(255,255,255,0.2);
+            padding: 6px 14px;
+            border-radius: 20px;
+        }
+
+        .btn {
+            background: #1b4332;
+            color: white;
+            border: none;
+            padding: 6px 14px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .content {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+<form runat="server">
+
+<div class="navbar">
+    <div>📚 BookShelf</div>
+
+    <div class="right">
+        <span class="user">
+            <asp:Label ID="lblUser" runat="server"></asp:Label>
+        </span>
+
+        <asp:Button ID="btnLogout" runat="server"
+            Text="Logout"
+            CssClass="btn"
+            OnClick="btnLogout_Click" />
+    </div>
+</div>
+
+<div class="content">
+    <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+</div>
+
+</form>
+</body>
+</html>
