@@ -150,13 +150,6 @@ This project demonstrates a complete **e-commerce workflow** including authentic
 
 ---
 
-## 👨‍💻 Authors
-
-* Kabir Shaikh
-* Prathamesh Patil
-
----
-
 ## 📄 License
 
 This project is for **academic purposes only**.
