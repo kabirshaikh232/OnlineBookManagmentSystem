@@ -12,7 +12,7 @@ body {
     background: #f4f6f9;
 }
 
-/* HEADER */
+
 .header {
     background: linear-gradient(135deg, #1b4332, #40916c);
     color: white;
@@ -26,12 +26,11 @@ body {
     align-items: center;
 }
 
-/* LEFT */
 .header-left h2 {
     margin: 0;
 }
 
-/* USER NAME */
+
 .admin-info {
     margin-top: 8px;
     font-size: 14px;
@@ -42,13 +41,13 @@ body {
     display: inline-block;
 }
 
-/* RIGHT */
+
 .header-right {
     display: flex;
     align-items: center;
 }
 
-/* BUTTON */
+
 .btn {
     background: #1b4332;
     color: white;
@@ -63,13 +62,12 @@ body {
     background: #2d6a4f;
 }
 
-/* CONTAINER (✅ FIXED - NO NEGATIVE MARGIN) */
+
 .container {
     width: 90%;
     margin: 30px auto; /* ✅ proper spacing */
 }
 
-/* CARD */
 .card {
     background: white;
     padding: 18px 20px;
@@ -86,7 +84,7 @@ body {
     align-items: center;
 }
 
-/* INPUT */
+
 .input {
     padding: 8px;
     width: 160px;
@@ -94,7 +92,7 @@ body {
     border: 1px solid #ccc;
 }
 
-/* TABLE */
+
 .grid {
     width: 100%;
     border-collapse: collapse;
@@ -111,7 +109,7 @@ body {
     border-bottom: 1px solid #eee;
 }
 
-/* IMAGE */
+
 .grid img {
     width: 50px;
     height: 70px;
@@ -123,7 +121,6 @@ body {
 .msg { color: green; }
 .err { color: red; }
 
-/* PREVIEW */
 .preview {
     width: 70px;
     margin-top: 10px;
